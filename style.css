@@ -1,0 +1,77 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+        text-align: center;
+}
+
+.container {
+    background-color: #ecf0f1; /* Updated background color */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px; /* Adjusted max-width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-position: center; /* Center the background image */
+    background-size: cover; /* Ensure the background image covers the container */
+    transition: background-image 0.3s ease; /* Add transition effect */
+}
+
+
+h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+#ville {
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#temperature_label {
+    font-size: 36px;
+    color: #ff5733; /* Reddish color for temperature */
+    font-weight: bold;
+}
+
+#nouvelleVille, #changer {
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+#nouvelleVille:hover {
+    border-color: #0056b3; /* Darker blue border on hover */
+}
+
+#changer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px; /* Slightly larger padding */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#changer:hover {
+    background-color: #0056b3;
+}
+
+#nouvelleVille {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #007bff; /* Blue border for input */
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Bootstrap classes for improved styling */
+.mt-5 {
+    margin-top: 5rem !important;
+}
+
+.mt-2 {
+    margin-top: 2rem !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
